@@ -12,7 +12,7 @@ if (compareListLength) {
     const jsonListWithLabel = JSON.stringify(storesListWithLabel);
 
     fs.writeFile(
-        '.list.json',
+        'list.json',
         jsonList,
         'utf8',
         // eslint-disable-next-line consistent-return
@@ -26,7 +26,7 @@ if (compareListLength) {
     );
 
     fs.writeFile(
-        '.listWithLabel.json',
+        'listWithLabel.json',
         jsonListWithLabel,
         'utf8',
         // eslint-disable-next-line consistent-return
