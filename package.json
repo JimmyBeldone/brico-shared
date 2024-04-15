@@ -1,13 +1,17 @@
 {
-  "scripts": {
-    "generate-list": "node scripts/index.js"
-  },
-  "name": "brico-shared",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "repository": "https://github.com/JimmyBeldone/brico-shared",
-  "author": "Jimmy <jimmy.beldone@gmail.com>",
-  "license": "MIT",
-  "private": false,
-  "type": "module"
+    "scripts": {
+        "generate-list": "node scripts/generateStoreList.js",
+        "generate-cuisine": "node scripts/generateCuisineStoreSkeleton.js",
+        "generate-menuiserie": "node scripts/generateMenuiserieStoreSkeleton.js",
+        "generate-eletroportatif": "node scripts/generateElectroportatifStoreSkeleton.js",
+        "generate": "yarn generate-list && yarn generate-cuisine && yarn generate-menuiserie && yarn generate-eletroportatif"
+    },
+    "name": "brico-shared",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "repository": "https://github.com/JimmyBeldone/brico-shared",
+    "author": "Jimmy <jimmy.beldone@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "type": "module"
 }
