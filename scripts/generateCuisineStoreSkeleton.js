@@ -32,6 +32,6 @@ fs.writeFile(
             return console.log(err);
         }
 
-        console.log('The file was saved!');
+        console.log('File Kitchen was saved!');
     }
 );
