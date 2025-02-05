@@ -4,7 +4,8 @@
         "generate-cuisine": "node scripts/generateCuisineStoreSkeleton.js",
         "generate-menuiserie": "node scripts/generateMenuiserieStoreSkeleton.js",
         "generate-eletroportatif": "node scripts/generateElectroportatifStoreSkeleton.js",
-        "generate": "yarn generate-list && yarn generate-cuisine && yarn generate-menuiserie && yarn generate-eletroportatif"
+        "generate": "yarn generate-list && yarn generate-cuisine && yarn generate-menuiserie && yarn generate-eletroportatif",
+        "get-stores-info": "node scripts/getStoresInfo.js"
     },
     "name": "brico-shared",
     "version": "1.0.0",

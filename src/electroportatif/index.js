@@ -55,25 +55,12 @@ const defaultFrequency = {
     Régulier: 0,
 };
 
-const defaultProjects = {
-    batir: 0,
-    bois: 0,
-    carrelage: 0,
-    cuisine: 0,
-    demolir: 0,
-    essentiels: 0,
-    meubles: 0,
-    sdb: 0,
-    sol: 0,
-};
-
 const types = [
     'brands',
     'clickstream',
     'tools',
     'usecases',
     'frequencies',
-    'projects',
     'buttons',
 ];
 
@@ -86,7 +73,6 @@ const eletroportatifDefaultTypes = {
     id: undefined,
     label: undefined,
     lastTimeActive: 'Null',
-    projects: defaultProjects,
     tools: defaultTools,
     usecases: defaultUsecases,
 };
