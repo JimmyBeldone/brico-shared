@@ -363,7 +363,7 @@ const storesListCompleted = [
         id: 1759,
         legacy: 1759,
         easier: 2374,
-        label: 'PAU_',
+        label: 'PAU',
         region: 'SUD OUEST',
         bassin: 'GSB',
     },
