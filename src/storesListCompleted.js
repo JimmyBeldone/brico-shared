@@ -1015,6 +1015,14 @@ const storesListCompleted = [
         region: 'CENTRE EST',
         bassin: 'Autres_H1000',
     },
+    {
+        id: 1955,
+        legacy: 1955,
+        easier: 3059,
+        label: 'Montgeron',
+        region: '',
+        bassin: 'Autres_H1000',
+    },
 ];
 
 export default storesListCompleted;
