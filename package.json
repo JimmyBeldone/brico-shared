@@ -5,7 +5,8 @@
         "generate-menuiserie": "node scripts/generateMenuiserieStoreSkeleton.js",
         "generate-eletroportatif": "node scripts/generateElectroportatifStoreSkeleton.js",
         "generate": "yarn generate-list && yarn generate-cuisine && yarn generate-menuiserie && yarn generate-eletroportatif",
-        "get-stores-info": "node scripts/getStoresInfo.js"
+        "get-stores-info": "node scripts/getStoresInfo.js",
+        "compare-stores": "node scripts/compareStores.js"
     },
     "name": "brico-shared",
     "version": "1.0.0",
@@ -14,5 +15,8 @@
     "author": "Jimmy <jimmy.beldone@gmail.com>",
     "license": "MIT",
     "private": false,
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "csv-parser": "^3.2.0"
+    }
 }
