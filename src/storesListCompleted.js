@@ -997,7 +997,7 @@ const storesListCompleted = [
         easier: 2846,
         label: 'Cahors',
         region: 'CENTRE AQUITAINE',
-        bassin: 'Autres_H1000',
+        bassin: 'GSB',
     },
     {
         id: 2002,
