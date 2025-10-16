@@ -85,7 +85,7 @@ const storesListCompleted = [
         easier: 2339,
         label: 'CARSIX',
         region: 'NORMANDIE LOIRE',
-        bassin: 'GSB',
+        bassin: 'Autres',
     },
     {
         id: 1714,
@@ -965,7 +965,7 @@ const storesListCompleted = [
         easier: 2451,
         label: 'SAUMUR',
         region: 'CENTRE ATLANTIQUE',
-        bassin: 'Discounter',
+        bassin: 'GSB',
     },
     {
         id: 1953,
