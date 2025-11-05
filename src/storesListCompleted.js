@@ -997,7 +997,7 @@ const storesListCompleted = [
         easier: 2846,
         label: 'Cahors',
         region: 'CENTRE AQUITAINE',
-        bassin: 'GSB',
+        bassin: 'GSB_H1000',
     },
     {
         id: 2002,
@@ -1013,7 +1013,7 @@ const storesListCompleted = [
         easier: 2977,
         label: 'Vierzon',
         region: 'CENTRE EST',
-        bassin: 'Autres_H1000',
+        bassin: 'GSB_H1000',
     },
     {
         id: 1955,
@@ -1021,7 +1021,7 @@ const storesListCompleted = [
         easier: 3059,
         label: 'Montgeron',
         region: '',
-        bassin: 'Autres_H1000',
+        bassin: 'GSB_H1000',
     },
 ];
 
