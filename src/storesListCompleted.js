@@ -1023,6 +1023,14 @@ const storesListCompleted = [
         region: '',
         bassin: 'GSB_H1000',
     },
+    {
+        id: 2004,
+        legacy: 2004,
+        easier: 3047,
+        label: 'St Dié',
+        region: '',
+        bassin: 'GSB_BD1000',
+    },
 ];
 
 export default storesListCompleted;
