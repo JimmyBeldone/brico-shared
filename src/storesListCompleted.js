@@ -1031,6 +1031,14 @@ const storesListCompleted = [
         region: '',
         bassin: 'GSB_BD1000',
     },
+    {
+        id: 9012,
+        legacy: 9012,
+        easier: 3063,
+        label: 'Saint Junien',
+        region: '',
+        bassin: 'Discounter',
+    },
 ];
 
 export default storesListCompleted;
