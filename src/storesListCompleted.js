@@ -1039,6 +1039,14 @@ const storesListCompleted = [
         region: '',
         bassin: 'Discounter',
     },
+    {
+        id: 1958,
+        legacy: 1958,
+        easier: 3137,
+        label: 'Le Havre',
+        region: '',
+        bassin: 'Discounter',
+    },
 ];
 
 export default storesListCompleted;
